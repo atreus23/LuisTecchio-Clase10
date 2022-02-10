@@ -1,0 +1,541 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fondo{
+    background-color: #f8f8f8d0;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #795f5fd2;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.nav__ul{
+    text-align: center;
+}
+.nav__li-a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav__li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 30px;
+}
+.nav__li i{
+    padding-right: 5px;
+    margin-right: 10px;
+}
+.nav__li:hover a{
+    color: #000;
+}
+.nav__li:hover i{
+    color: #000;
+}
+.nav__responsive-ul{
+    display: none;
+}
+.nav__responsive-button{
+    float: right;
+    font-size: 40px;
+    padding: 8px 10px;
+}
+.sillon{
+    width: 100%;
+}
+.sobre{
+    text-align: center;
+}
+.nosotros{
+    text-align: center;
+}
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenedordeservicios{
+    display: flex;
+}
+.formasdetrabajo{
+    background-color: #795f5fd2;
+    text-align: center;
+    font-size: 25px;
+}
+.serviciosp{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+.precios{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tabla{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+.trabajos{
+    border: solid 1px #000;
+}
+.medidasprecios{
+    border: solid 1px #000;
+}
+.findepagina{ 
+    width: 100%;
+    background-color: #795f5fd2;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+.redes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.derechos{
+    width: 100%;
+    color: #000;
+}
+/* fin de index */
+/* inicio de galería */
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+.variados{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #c0bcbc;
+}
+.caracteristicas{
+    text-align: center;
+    margin: 0 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.muestras{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+    border: 4px solid #3d2e2e;
+    border-radius: 10px;
+}
+/* fin de galeria */
+/* inicio de videos */
+.centrado{
+    text-align: center;
+}
+.clases{
+    margin-top: 30px;
+    background-color: #795f5f4f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.videos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 400px;
+}
+/* fin de videos */
+/* inicio de tienda */
+.tienda{
+    min-height: 1000px;
+    display: grid;
+    margin: 20px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.item{
+    border: 3px solid #3d2e2e;
+}
+.item1{
+    background-image: url(imágenes/Almohadon.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.item2{
+    background-image: url(imágenes/Almohadon2.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.item3{
+    background-image: url(imágenes/Almohadon3.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.item4{
+    background-image: url(imágenes/TelaAntimanchas.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.item5{
+    background-image: url(imágenes/TelaDeCuerina.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.item6{
+    background-image: url(imágenes/TelaMarron.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.item7{
+    background-image: url(imágenes/TelaDeCueroVariosColores.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.item8{
+    background-image: url(imágenes/Almohadon4.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+/* fin de tienda */
+/* inicio de contactos */
+.contacto{
+    width: 550px;
+    background: rgba(138, 132, 125, 0.514);
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 3px solid #000;
+}
+.tusdatos{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.controles{
+    width: 50%;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.datos{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.comentarios{
+    resize: none;
+    border-radius: 5px;
+    padding: 8px 14px;
+    border: 2px solid #000;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type="submit"]{
+    border-radius: 5px;
+    margin: 10px 0;
+    background: #00b244;
+    color: #fff;
+    padding: 8px 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* fin de contacto */
+
+@media only screen and (max-width: 480px) {
+    .nav__ul{
+        display: none;
+    }
+    .logo img{
+        height: 40px;
+        width: 40px;
+    }
+    .header{
+        height: 40px;
+    }
+    .nav__responsive-button{
+        font-size: 25px;
+        padding: 8px 10px;
+    }
+    .nav__responsive-ul{
+        display: block; 
+    }
+    .nav__li-contenido{
+        position: relative;
+        top: -1000px;
+        background: #f8f8f8d0;
+        transition: all 1s;
+        z-index: 1; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav__responsive-li{
+        padding: 10px;
+        list-style: none;
+    }
+    .nav__responsive-li i{
+        margin-right: 8px;
+    }
+    .nav__responsive-li a{
+        color: #000;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .nav__responsive-ul:hover > .nav__li-contenido{
+        top: 40px;
+    }
+    .sobre{        
+        font-size: 10px;
+    }
+    .nosotros{
+        font-size: 8px;
+    }
+    .titulo{ 
+        font-size: 15px;
+    }
+    .contenedordeservicios{
+        display: block;
+    }
+    .formasdetrabajo{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .serviciosp{
+        font-size: 12px;
+    }
+    .precios{
+        font-size: 15px;
+    }
+    .tabla{
+        width: 90%;
+        font-size: 10px;
+    }
+    .redes{
+        font-size: 15px;
+    }
+    .contenedor{
+        display: block;
+    }
+    .muestras{
+        width: 250px;
+        height: 250px;
+    }
+    .variados{
+        font-size: 15px;
+    }
+    .caracteristicas{
+        font-size: 10px;
+    }
+    .clases{
+        font-size: 15px;
+    }
+    .videos{
+        width: 300px;
+        height: 150px;
+    }
+    .tienda{
+        min-height: 300px;
+    }
+    .contacto{
+        width: 250px;
+    }
+    .controles{
+        width: 95%;
+        font-size: 15px;
+    }
+    .tusdatos{
+        font-size: 25px;
+    }
+    .datos{
+        font-size: 18px;
+    }
+    .comentarios{
+        font-size: 10px;
+    }
+    input[type="submit"]{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .nav__ul{
+        display: none;
+    }
+    .logo img{
+        height: 56px;
+        width: 56px;
+    }
+    .header{
+        height: 56px;
+    }
+    .nav__responsive-ul{
+        display: block; 
+    }
+    .nav__li-contenido{
+        position: relative;
+        top: -1000px;
+        background: #f8f8f8d0;
+        transition: all 1s;
+        z-index: 1; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav__responsive-li{
+        padding: 10px;
+        list-style: none; 
+    }
+    .nav__responsive-li i{
+        margin-right: 8px;
+    }
+    .nav__responsive-li a{
+        color: #000;
+        text-decoration: none;
+    }
+    .nav__responsive-ul:hover > .nav__li-contenido{
+        top: 56px;
+    }
+    .sobre{        
+        font-size: 15px;
+    }
+    .nosotros{
+        font-size: 12px;
+    }
+    .titulo{ 
+        font-size: 25px;
+    }
+    .contenedordeservicios{
+        display: block;
+    }
+    .formasdetrabajo{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .serviciosp{
+        font-size: 15px;
+    }
+    .infotrabajo{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .precios{
+        font-size: 22px;
+    }
+    .tabla{
+        width: 80%;
+        font-size: 12px;
+    }
+    .contenedor{
+        display: block;
+    }
+    .muestras{
+        width: 350px;
+        height: 350px;
+    }
+    .variados{
+        font-size: 20px;
+    }
+    .caracteristicas{
+        font-size: 15px;
+    }
+    .clases{
+        font-size: 20px;
+    }
+    .videos{
+        width: 400px;
+        height: 200px;
+    }
+    .tienda{
+        min-height: 550px;
+    }
+    .contacto{
+        width: 400px;
+    }
+    .controles{
+        font-size: 15px;
+    }
+    .datos{
+        font-size: 20px;
+    }
+    .tusdatos{
+        font-size: 30px;
+    }
+    .comentarios{
+        font-size: 14px;
+    }
+    input[type="submit"]{
+        background: #b20009;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .nav__li-a{
+        font-size: 20px;
+    }
+    .logo img{
+        height: 60px;
+        width: 60px;
+    }
+    .header{
+        height: 60px;
+    }
+    .nav__li i{
+        padding-right: 5px;
+        font-size: 15px;
+    }
+    .nav__li{
+        margin-top: 5px;
+    }
+    .tabla{
+        width: 60%;
+    }
+    .muestras{
+        width: 350px;
+        height: 350px;
+    }
+    .variados{
+        font-size: 20px;
+    }
+    .caracteristicas{
+        font-size: 15px;
+    }
+}
